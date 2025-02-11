@@ -1,0 +1,33 @@
+{
+  "app": {
+    "title": "Novatix",
+    "description": "Novatix Web Development Company"
+  },
+  "home": {
+    "title": "Our Website is Coming Soon",
+    "description": "We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!"
+  },
+  "button": {
+    "notify": "Notify Me!",
+    "submitting": "Submitting",
+    "cancel": "Cancel"
+  },
+  "fields": {
+    "email": "Email"
+  },
+  "input": {
+    "email": {
+      "placeholder": "Enter email address"
+    }
+  },
+  "form": {
+    "messages": {
+      "submitSuccess": "Form submission successful!",
+      "submitError": "Error sending message!"
+    }
+  },
+  "validation": {
+    "email": "Please enter a valid email address.",
+    "required": "{field} is required."
+  }
+}
