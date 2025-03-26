@@ -55,7 +55,7 @@
 <script setup>
 import { ref } from "vue";
 import { useSupabaseClient } from "#imports";
-import bgImage from "~/assets/img/bg.png";
+import bgImage from "~/assets/images/bg.png";
 
 const { t } = useI18n();
 const client = useSupabaseClient();
