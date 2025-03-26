@@ -1,10 +1,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: false },
-  css: [
-    '~/assets/css/bs.css',
-    '~/assets/css/styles.css'
-  ],
   app: {
     head: {
       link: [
@@ -22,6 +18,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@nuxtjs/tailwindcss',
     '@nuxtjs/supabase',
     '@nuxtjs/robots',
     '@nuxtjs/i18n'

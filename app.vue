@@ -5,7 +5,7 @@
 <script setup>
 import { NuxtPage } from "#components";
 import { useI18n } from "vue-i18n";
-import ogImage from "~/assets/img/og-image.png";
+import ogImage from "~/assets/images/og-image.png";
 
 const { t, localeProperties } = useI18n();
 
