@@ -1,10 +1,10 @@
 <template>
-  <section id="testimonials" class="section bg-gray-50 py-20">
+  <section id="testimonials" class="section py-20">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
-        <h2 class="text-3xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">{{ $t('testimonials.title') }}</h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          Don't just take our word for it — hear from some of our satisfied clients
+          {{ $t('testimonials.description') }}
         </p>
       </div>
       
@@ -18,16 +18,16 @@
           <div class="text-4xl text-primary/20 mb-4">"</div>
           
           <!-- Testimonial content -->
-          <p class="text-gray-600 mb-6 italic">{{ testimonial.quote }}</p>
+          <p class="text-gray-600 mb-6 italic">{{ $t(testimonial.quote) }}</p>
           
           <!-- Client info -->
           <div class="flex items-center">
             <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
-              <img :src="testimonial.avatarUrl" :alt="`${testimonial.name}'s avatar`" class="w-full h-full object-cover" />
+              <img :src="testimonial.avatarUrl" :alt="`${$t(testimonial.name)}'s avatar`" class="w-full h-full object-cover" />
             </div>
             <div>
-              <h4 class="font-semibold text-gray-900">{{ testimonial.name }}</h4>
-              <p class="text-gray-500 text-sm">{{ testimonial.title }}, {{ testimonial.company }}</p>
+              <h4 class="font-semibold text-gray-900">{{ $t(testimonial.name) }}</h4>
+              <p class="text-gray-500 text-sm">{{ $t(testimonial.title) }}, {{ $t(testimonial.company) }}</p>
             </div>
           </div>
           
@@ -54,32 +54,32 @@
 </template>
 
 <script setup lang="ts">
-// Testimonial data
+// Testimonial data with i18n keys
 const testimonials = [
   {
     id: 1,
-    quote: "Working with Novatix LLC was a game-changer for our business. They delivered an e-commerce platform that exceeded our expectations and has significantly improved our online sales.",
-    name: "Sarah Johnson",
-    title: "Marketing Director",
-    company: "Fashion Forward",
+    quote: "testimonials.list.sarahJohnson.quote",
+    name: "testimonials.list.sarahJohnson.name",
+    title: "testimonials.list.sarahJohnson.title",
+    company: "testimonials.list.sarahJohnson.company",
     rating: 5,
     avatarUrl: "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
     id: 2,
-    quote: "The team at Novatix LLC understood our vision from day one. Their technical expertise and attention to detail resulted in a mobile app that our users love.",
-    name: "Michael Chen",
-    title: "CEO",
-    company: "HealthTrack",
+    quote: "testimonials.list.michaelChen.quote",
+    name: "testimonials.list.michaelChen.name",
+    title: "testimonials.list.michaelChen.title",
+    company: "testimonials.list.michaelChen.company",
     rating: 5,
     avatarUrl: "https://randomuser.me/api/portraits/men/2.jpg"
   },
   {
     id: 3,
-    quote: "Novatix LLC revamped our outdated website into a modern, user-friendly platform. Their team was communicative, professional, and delivered on time and within budget.",
-    name: "Emily Rodriguez",
-    title: "Operations Manager",
-    company: "Eco Solutions",
+    quote: "testimonials.list.emilyRodriguez.quote",
+    name: "testimonials.list.emilyRodriguez.name",
+    title: "testimonials.list.emilyRodriguez.title",
+    company: "testimonials.list.emilyRodriguez.company",
     rating: 4,
     avatarUrl: "https://randomuser.me/api/portraits/women/3.jpg"
   }

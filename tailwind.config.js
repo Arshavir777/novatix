@@ -8,7 +8,7 @@ export default {
         primary: "#7716ff",
         secondary: "#1E40AF",
         accent: "#60A5FA",
-        dark: "#1E293B",
+        dark: "rgb(16 24 39)",
         light: "#F8FAFC",
       },
       fontFamily: {

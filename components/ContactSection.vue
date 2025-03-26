@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="section py-20 bg-white">
+  <section id="contact" class="section py-20">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">Get In Touch</h2>
@@ -62,7 +62,7 @@
             
             <button 
               type="submit" 
-              class="btn btn-primary btn-lg w-full"
+              class="px-5 py-2 rounded-full font-medium transition-colors bg-primary text-white"
               :disabled="isSubmitting"
             >
               <span v-if="isSubmitting">Sending...</span>
@@ -82,7 +82,7 @@
               </div>
               
               <div>
-                <h4 class="font-medium text-gray-900">{{ info.title }}</h4>
+                <h4 class="font-medium ">{{ info.title }}</h4>
                 <p class="text-gray-600">{{ info.value }}</p>
               </div>
             </div>
@@ -98,7 +98,7 @@
                 :href="social.url" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                class="bg-gray-100 hover:bg-primary hover:text-white transition-colors duration-300 rounded-full w-10 h-10 flex items-center justify-center"
+                class="bg-gray-100 dark:text-dark hover:bg-primary hover:text-white transition-colors duration-300 rounded-full w-10 h-10 flex items-center justify-center"
               >
                 <component :is="social.icon" class="w-5 h-5" />
               </a>
@@ -248,22 +248,22 @@ const contactInfo = [
   {
     icon: LocationIcon,
     title: 'Our Location',
-    value: '123 Tech Park, San Francisco, CA 94107, USA'
+    value: '10/9 Grigor Hasratyan St, Yerevan, Armenia'
   },
   {
     icon: PhoneIcon,
     title: 'Phone Number',
-    value: '+1 (555) 123-4567'
+    value: '+374 94 79 85 70'
   },
   {
     icon: EmailIcon,
     title: 'Email Address',
-    value: 'info@novatixllc.com'
+    value: 'info@nova-tix.com'
   },
   {
     icon: ClockIcon,
     title: 'Working Hours',
-    value: 'Monday - Friday: 9:00 AM - 6:00 PM'
+    value: 'Monday - Friday: 10:00 AM - 7:00 PM'
   }
 ];
 

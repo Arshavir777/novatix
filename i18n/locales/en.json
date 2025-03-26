@@ -1,33 +1,171 @@
 {
+  "Novatix": "Novatix",
+  "LLC": "LLC",
+  "Home": "Home",
+  "Services": "Services",
+  "About": "About",
+  "Portfolio": "Portfolio",
+  "Testimonials": "Testimonials",
+  "Contact Us": "Contact Us",
+  "home": {
+    "title": "From Vision to Reality with Innovative Web Solutions",
+    "description": "We create cutting-edge web solutions to help businesses thrive in the digital world. Our experienced team delivers custom web applications that drive real results.",
+    "buttons": {
+      "ourServices": "Our Services",
+      "viewPortfolio": "View Portfolio"
+    },
+    "imageAlt": "Web development team at work"
+  },
+  "about": {
+    "title": "About Us",
+    "companyName": "Novatix LLC",
+    "description": "Founded in 2015, Novatix LLC is a leading web development company passionate about helping businesses succeed in the digital age.",
+    "stats": {
+      "projectsCompleted": "Projects Completed",
+      "happyClients": "Happy Clients",
+      "yearsExperience": "Years of Experience",
+      "teamMembers": "Team Members"
+    },
+    "teamDescription": "Our experienced team of developers, designers, and digital strategists work together to deliver solutions that exceed expectations and drive visible results.",
+    "buttonText": "Meet the Team"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer comprehensive web development services to meet your business needs.",
+    "list": {
+      "webDevelopment": {
+        "title": "Web Development",
+        "description": "Custom websites and web applications built with modern technologies for high performance and scalability."
+      },
+      "mobileAppDevelopment": {
+        "title": "Mobile App Development",
+        "description": "Native and cross-platform mobile apps delivering seamless experiences across all devices."
+      },
+      "uiUxDesign": {
+        "title": "UI/UX Design",
+        "description": "Human-centered design that creates intuitive and engaging user experiences, boosting conversion and satisfaction."
+      },
+      "seoOptimization": {
+        "title": "SEO Optimization",
+        "description": "Strategic SEO services to improve your website’s visibility in search engines and increase organic traffic."
+      },
+      "ecommerceSolutions": {
+        "title": "E-commerce Solutions",
+        "description": "Complete online store creation with payment processing, inventory management, and secure payment systems."
+      },
+      "maintenanceSupport": {
+        "title": "Maintenance & Support",
+        "description": "Ongoing technical support, regular updates, and maintenance to keep your digital product running smoothly."
+      }
+    },
+    "learnMore": "Learn More"
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "description": "Don’t just take our word for it—hear from our satisfied clients.",
+    "list": {
+      "sarahJohnson": {
+        "quote": "Working with Novatix LLC was a game changer for our business. They built an e-commerce platform that exceeded our expectations and significantly boosted our online sales.",
+        "name": "Sarah Johnson",
+        "title": "Marketing Director",
+        "company": "Fashion Forward"
+      },
+      "michaelChen": {
+        "quote": "The team at Novatix LLC understood our vision from day one. Their technical skills and attention to detail created a mobile app our users love.",
+        "name": "Michael Chen",
+        "title": "CEO",
+        "company": "HealthTrack"
+      },
+      "emilyRodriguez": {
+        "quote": "Novatix LLC revamped our old website, making it modern and user-friendly. Their team was communicative, professional, and delivered a quality result on time.",
+        "name": "Emily Rodriguez",
+        "title": "Operations Manager",
+        "company": "Eco Solutions"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to start your project? Get in touch with us today for a free consultation.",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "submitting": "Submitting..."
+    },
+    "info": {
+      "title": "Contact Information",
+      "location": "Our Location",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "working_hours": "Working Hours",
+      "working_hours_value": "Monday - Friday: 9:00 AM - 6:00 PM"
+    },
+    "social": {
+      "title": "Follow Us",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "map": {
+      "alt": "Our office building"
+    }
+  },
+  "portfolio": {
+    "title": "Our Portfolio",
+    "description": "Take a look at our recent projects that showcase our expertise and capabilities.",
+    "categories": {
+      "all": "All",
+      "webDevelopment": "Web Development",
+      "mobileApps": "Mobile Apps",
+      "ecommerce": "E-commerce",
+      "uiuxDesign": "UI/UX Design"
+    },
+    "viewAll": "View All Projects"
+  },
+  "footer": {
+    "companyName": "Novatix",
+    "companySuffix": "LLC",
+    "description": "Building innovative digital solutions that transform businesses and create extraordinary user experiences.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "newsletter": "Newsletter",
+    "newsletterDescription": "Subscribe to our newsletter for the latest updates and insights.",
+    "subscribe": "Subscribe",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "copyright": "All rights reserved."
+  },
   "app": {
     "title": "Novatix",
-    "description": "Novatix Web Development Company specializes in full-stack development, custom web applications, and API solutions. We build scalable, high-performance websites tailored to your business needs"
-  },
-  "home": {
-    "title": "Our Website is Coming Soon",
-    "description": "We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!"
+    "description": "Novatix is a web development company specializing in custom web applications and API solutions. We build fast and scalable websites tailored to your business needs."
   },
   "button": {
-    "notify": "Notify Me!",
+    "notify": "Notify Me",
     "submitting": "Submitting",
     "cancel": "Cancel"
   },
   "fields": {
-    "email": "Email"
+    "email": "Email Address"
   },
   "input": {
     "email": {
-      "placeholder": "Enter email address"
+      "placeholder": "Enter your email address"
     }
   },
   "form": {
     "messages": {
-      "submitSuccess": "Form submission successful!",
-      "submitError": "Error sending message!"
+      "submitSuccess": "Successfully submitted",
+      "submitError": "Error while submitting the message"
     }
   },
   "validation": {
-    "email": "Please enter a valid email address.",
-    "required": "{field} is required."
+    "email": "Please enter a valid email address",
+    "required": "{field} is required"
   }
 }

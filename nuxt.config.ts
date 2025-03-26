@@ -28,8 +28,8 @@ export default defineNuxtConfig({
   },
   i18n: {
     locales: [
-      { code: 'en', iso: 'en-US', name: 'English 🇺🇸', file: 'en.json' },
-      { code: 'hy', iso: 'hy-AM', name: 'Հայերեն 🇦🇲', file: 'hy.json' },
+      { code: 'en', iso: 'en-US', name: '🇺🇸', file: 'en.json' },
+      { code: 'hy', iso: 'hy-AM', name: '🇦🇲', file: 'hy.json' },
     ],
     defaultLocale: 'en',
     langDir: 'locales/',
